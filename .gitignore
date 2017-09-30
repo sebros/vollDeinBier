@@ -1,2 +1,6 @@
-archive
-./tmp/**
+archive/original/*
+!archive/original/.keepme
+archive/resized/*
+!archive/resized/.keepme
+tmp/*
+!tmp/.keepme
