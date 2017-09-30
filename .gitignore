@@ -4,3 +4,5 @@ archive/resized/*
 !archive/resized/.keepme
 tmp/*
 !tmp/.keepme
+watson_apikey.txt
+out.log
