@@ -1,2 +1,4 @@
 # vollDeinBier
-Bier leer? keine Problem, wir erkennen das automatisch!
+Don't be frustrated! We automatically recognize if you need a new one.
+
+This will be done by using IBM's AI Watson (Bluemix Image Recognition Service).
