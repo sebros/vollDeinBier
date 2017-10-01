@@ -1,0 +1,21 @@
+{
+    "custom_classes": 2,
+    "images": [
+        {
+            "classifiers": [
+                {
+                    "classes": [
+                        {
+                            "class": "biervoll",
+                            "score": 0.604146
+                        }
+                    ],
+                    "classifier_id": "bier_1159359254",
+                    "name": "bier"
+                }
+            ],
+            "image": "lala5.jpg"
+        }
+    ],
+    "images_processed": 1
+}
