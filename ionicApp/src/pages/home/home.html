@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Voll dein Bier?
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="home">
+  <!--ion-card-->
+    <ion-card-content>
+      <p>Brauchst du Nachschub? Mach ein Foto von deinem Bier und lass dich informieren, ob du ein neues Bier brauchst.</p>
+
+      <button ion-button round full (click)="takePicture()">
+			<ion-icon padding name="aperture"></ion-icon>
+			Foto machen
+		</button>
+
+      <p>Letztes Foto:</p>
+      <img [src]="base64Image" *ngIf="base64Image" />
+    </ion-card-content>
+  <!--/ion-card-->
+</ion-content>
